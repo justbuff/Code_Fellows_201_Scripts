@@ -7,5 +7,8 @@
 
 # Main
 
+function history {
+    last
+}
 
-# End
+history 
