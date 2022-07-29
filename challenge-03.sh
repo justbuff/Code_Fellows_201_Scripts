@@ -7,5 +7,13 @@
 
 # Main
 
+function history {
+    echo "History of logged in users"
+    $1
+    echo "Most recent login for all users"
+    $2  
+}
+
+history last lastlog 
 
 # End
