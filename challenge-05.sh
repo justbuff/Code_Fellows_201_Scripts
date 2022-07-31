@@ -3,7 +3,7 @@
 # Script: Ops 201 Class 05 Ops Challenge Solution
 # Author: Justin Buffington
 # Date of latest revision: 7/29/2022
-# Purpose: Create 4 directories with a .txt file in each
+# Purpose: Print running system processes, record user response, and kill selected process
 
 # Main
 
