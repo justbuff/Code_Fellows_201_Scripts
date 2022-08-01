@@ -9,7 +9,7 @@
 
 ps aux
 
-echo "Which process would you like to end?"
+echo "Which process PID would you like to end?"
 
 read response
 
