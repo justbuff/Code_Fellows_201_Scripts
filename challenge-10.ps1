@@ -12,7 +12,7 @@ Get-Process | Sort -Descending WS | Select -First 5
 
 # Start the process Internet Explorer (iexplore.exe) ten times using a for loop. Have each instance open https://owasp.org/www-project-top-ten/.
 $url = @("https://owasp.org/www-project-top-ten/")
-for($i = 1; $i -le 10; $1++){
+for($i = 1; $i -le 10; $i++){
     Start-Process iexplore.exe $url
 }
 
