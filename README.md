@@ -8,3 +8,5 @@
 - [Ops Challenge 07](challenge-07.sh)
 - [Ops Challenge 08](challenge-08.bat)
 - [Ops Challenge 09](challenge-09.ps1)
+- [Ops Challenge 10](challenge-10.ps1)
+- [Ops Challenge 11](challenge-11.ps1)
