@@ -10,3 +10,4 @@
 - [Ops Challenge 09](challenge-09.ps1)
 - [Ops Challenge 10](challenge-10.ps1)
 - [Ops Challenge 11](challenge-11.ps1)
+- [Ops Challenge 12](challenge-12.ps1)
