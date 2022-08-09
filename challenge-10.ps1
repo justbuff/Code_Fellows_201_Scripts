@@ -8,12 +8,11 @@ Get-Process | Sort -Descending Id
 Get-Process | Sort -Descending WS | Select -First 5
 
 # Start the process Internet Explorer (iexplore.exe) and have it open https://owasp.org/www-project-top-ten/.
-[system.Diagnostics.Process]::Start("iexplore","https://owasp.org/www-project-top-ten/")
+Start-Process iexplore "https://owasp.org/www-project-top-ten/"
 
 # Start the process Internet Explorer (iexplore.exe) ten times using a for loop. Have each instance open https://owasp.org/www-project-top-ten/.
-$url = ("https://owasp.org/www-project-top-ten/")
 for($i = 1; $i -le 20; $i++){
-    Start-Process iexplore.exe $url
+    Start-Process iexplore "https://owasp.org/www-project-top-ten/"
 }
 
 # Close all Internet Explorer windows.
