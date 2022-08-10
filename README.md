@@ -11,3 +11,4 @@
 - [Ops Challenge 10](challenge-10.ps1)
 - [Ops Challenge 11](challenge-11.ps1)
 - [Ops Challenge 12](challenge-12.ps1)
+- [Ops Challenge 13](challenge-13.sh)
