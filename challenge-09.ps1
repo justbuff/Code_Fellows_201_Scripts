@@ -1,3 +1,10 @@
+# Script: Ops 201 Class 09 Ops Challenge Solution
+# Author: Justin Buffington
+# Date of latest revision: 8/9/2022
+# Purpose: Prints varied log command outputs
+
+# Main
+
 Get-EventLog -LogName System -After (Get-Date).AddHours(-24) | Out-File -FilePath C:\Users\justi\OneDrive\Desktop\last_24.txt
 
 Get-EventLog -LogName System -EntryType Error | Out-File -FilePath C:\Users\justi\OneDrive\Desktop\errors.txt
@@ -13,3 +20,5 @@ Get-EventLog -LogName System -Newest 20
 Write-Output "Sources of last 500 System events"
 pause
 Get-EventLog -LogName System -Newest 500 | Group-Object -Property Source | Format-Table -Wrap -AutoSize
+
+# End
