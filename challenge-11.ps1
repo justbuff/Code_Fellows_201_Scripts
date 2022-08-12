@@ -1,3 +1,10 @@
+# Script: Ops 201 Class 11 Ops Challenge Solution
+# Author: Justin Buffington
+# Date of latest revision: 8/8/2022
+# Purpose: Prints varied command outputs
+
+# Main
+
 # Enables File and Printer sharing
 Set-NetFirewallRule -DisplayGroup "File And Printer Sharing" -Enabled True -Profile Any
 
@@ -16,4 +23,4 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 # Disables SMBv1
 Set-SmbServerConfiguration -EnableSMB1Protocol $false -Force
 
-
+# End
