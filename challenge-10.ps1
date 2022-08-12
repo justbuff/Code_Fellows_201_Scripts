@@ -1,3 +1,10 @@
+# Script: Ops 201 Class 10 Ops Challenge Solution
+# Author: Justin Buffington
+# Date of latest revision: 8/7/2022
+# Purpose: Executes varied process commands
+
+# Main
+
 # Print to the terminal screen all active processes ordered by highest CPU time consumption at the top.
 Get-Process | Sort -Descending CPU
 
@@ -20,3 +27,5 @@ Get-Process iexplore | stop-process
 
 # Kill a process by its Process Identification Number. Choose a process whose termination won’t destabilize the system, such as Internet Explorer or MS Edge. (Notepad)
 taskkill /pid 15720
+
+# End
