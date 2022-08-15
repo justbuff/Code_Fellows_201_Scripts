@@ -7,6 +7,6 @@
 
 # Main
 
-sudo lshw -c processor -c memory -c display -c network | grep -E '*-cpu|*-memory|*-firmware|*-display|*-network|product:|vendor:|physical id:|bus info:|width:|description:|size:|clock:|capabilities:|configuration:|resources:|logical name:|version:|serial:|capacity:'
+sudo lshw -c processor -c memory -c display -c network | grep -E '*-cpu|*-memory|*-firmware|*-display|*-network|product:|vendor:|physical id:|bus info:|width:|description:|size:|clock:|capabilities:|configuration:|resources:|logical name:|version:|serial:|capacity:' | head -n1
 
 # End
