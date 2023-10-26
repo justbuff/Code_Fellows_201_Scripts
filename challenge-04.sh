@@ -16,6 +16,8 @@ dir dir2
 dir dir3
 dir dir4
 
+# mkdir ${dir|*|}
+
 directories=(dir1 dir2 dir3 dir4)
 
 for x in "${directories[@]}"
